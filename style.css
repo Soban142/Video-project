@@ -46,6 +46,7 @@ body{
     position: absolute;
     left: 5rem;
     bottom: 5rem;
+    
 }
 
 .btn{
@@ -66,4 +67,18 @@ body{
 
 .btn:hover{
     color: rgb(132, 132, 219);
+}
+
+
+
+@media screen and (max-width: 596px){
+    .buttons-container{
+        width: 100%;
+        position: absolute;
+        left: 0rem;
+        bottom: 5rem;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
 }
